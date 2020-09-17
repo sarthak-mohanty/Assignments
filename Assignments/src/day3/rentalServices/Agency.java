@@ -18,9 +18,9 @@ public RentalAgency getProduct(int key) {
 		
 	}
 
-public double Total(RentalAgency polyAuto) {
+public double Total(RentalAgency polyAuto, int items , int days) {
 	
-	double total = polyAuto.getItemPrice() * polyAuto.getRentDays();
+	double total = polyAuto.getItemPrice(items) * polyAuto.getRentDays(days);
 	
 	return total;
 	

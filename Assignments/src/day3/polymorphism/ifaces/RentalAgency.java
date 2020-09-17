@@ -4,8 +4,8 @@ public interface RentalAgency {
 	
 	String APPNAME="Rent Summary";
 	
-	double getRentDays();
-	double getItemPrice();
+	double getRentDays(int days);
+	double getItemPrice(int items);
 	
 
 }
